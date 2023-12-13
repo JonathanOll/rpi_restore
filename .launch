@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~/dev/
+cd $1
+thonny ./main.py
+cd ..
+echo launched $1
