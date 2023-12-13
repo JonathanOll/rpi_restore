@@ -3,4 +3,6 @@ echo "alias create='~/dev/.create'" >> ~/.bashrc
 echo "alias create='~/dev/.launch'" >> ~/.bashrc
 echo "alias create='~/dev/.remove'" >> ~/.bashrc
 
-
+chmod +x .create 
+chmod +x .launch 
+chmod +x .remove 
