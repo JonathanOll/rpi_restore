@@ -1,0 +1,6 @@
+echo "alias dev='cd ~/dev'" >> ~/.bashrc
+echo "alias create='~/dev/.create'" >> ~/.bashrc
+echo "alias create='~/dev/.launch'" >> ~/.bashrc
+echo "alias create='~/dev/.remove'" >> ~/.bashrc
+
+
