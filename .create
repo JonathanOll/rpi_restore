@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~/dev/
+mkdir $1
+cd $1
+echo "from PyQt5.QtWidgets import *" > main.py
+thonny ./main.py &
+cd ..
+echo created workspace $1
